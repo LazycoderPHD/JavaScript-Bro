@@ -19,7 +19,7 @@ console.log(`The price is ${price} `);
 console.log(typeof FirstName);
 console.log(`Your name is ${FirstName}`);
 console.log(`You like ${Food}`);
-console.log(`Your email is ${email}`);
+console.log(`Your email is ${Email}`);
 
 document.getElementById("p1").textContent = `Your name is ${fullName}`;
 document.getElementById("p2").textContent = `You are ${age} years old`;
