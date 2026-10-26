@@ -10,19 +10,19 @@ document.getElementById("mySubmit").onclick = function(){
     age = +document.getElementById("myText").value;
     age+=1;
     document.getElementById("myP").textContent = `Your age is: ${age}`;
-    
+
     console.log(age, typeof age);
 }
 
 // -------------- EXAMPLE 2 --------------
-// let x = "pizza";
-// let y = "pizza";
-// let z = "pizza";
+let x = "pizza";
+let y = "pizza";
+let z = "pizza";
 
-// x = Number(x);
-// y = String(y);
-// z = Boolean(z);
+x = Number(x);
+y = String(y);
+z = Boolean(z);
 
-// console.log(x, typeof x);
-// console.log(y, typeof y);
-// console.log(z, typeof z);
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
